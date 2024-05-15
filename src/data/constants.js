@@ -7,7 +7,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Driven Software Engineer with a track record in optimizing development processes and fostering seamless integration. Committed to tackling complex challenges through the strategic application of cutting-edge technologies. Seeking to contribute expertise and enhance efficiency in an innovative organization.",
   github: "https://github.com/Musthakeem98",
   resume:
     "https://drive.google.com/file/d/12XEnhOQef9NBVOzfmxlAqE1BAR3xnvq2/view?usp=sharing",
@@ -55,6 +55,11 @@ export const skills = [
         name: "TypeScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Typescript_fullstack_logo.png/600px-Typescript_fullstack_logo.png",
+      },
+      {
+        name: "Flutter",
+        image:
+          "https://juststickers.in/wp-content/uploads/2019/01/flutter-326x326.png",
       },
       {
         name: "Material UI",
@@ -138,6 +143,11 @@ export const skills = [
         name: "Docker",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png",
+      },
+      {
+        name: "Ansible",
+        image:
+          "https://levelupla.io/wp-content/uploads/2020/05/ansiblelogo.png",
       },
       {
         name: "GitLab CI/CD",
@@ -277,6 +287,18 @@ export const experiences = [
           "Docker",
         ],
       },
+      {
+        des: "Discover Apache Superset, a powerful open-source tool transforming data visualization. Seamlessly integrate with Keycloak for enhanced security, unlocking features like alerts and reporting to empower data-driven decision-making. With Apache Superset, unlock the potential of your data with intuitive and insightful visualizations.",
+        topic: "ApacheSuperset R & D Project",
+        skills: [
+          "ApacheSuperset",
+          "Python",
+          "Keyclock",
+          "MySql",
+          "VS Code",
+          "Docker",
+        ],
+      },
     ],
     doc: "https://drive.google.com/file/d/1P-KvZL4JR9phBSmPWzsgM-UZ1i7F19YV/view?usp=sharing",
   },
@@ -349,194 +371,309 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
-  },
-  {
     id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    title: "Capption Buddy",
+    date: "Apr 2023 - Jun 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "This project endeavors to craft a dynamic employee dashboard deployed via Kubernetes, offering users a comprehensive insight into employee data for streamlined organizational management and monitoring. Through categorically structured input, the application generates captions enriched with emojis and hashtags tailored to user-provided information. Users can choose from a range of packages, spanning free to paid options, adjusting according to their caption generation needs.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://github.com/Musthakeem98/CapptionBuddy/raw/main/Full%20code/client/ReadMe_Img/ScreenShot.png",
+    tags: ["React Js", "MongoDb", "Next Js", "OpenAI", "Python"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
+    github: "https://github.com/Musthakeem98/CapptionBuddy",
     webapp: "https://podstream.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "Class-Diagram-Gennies",
+    date: "Dec 2023 - Mar 2024",
+    description:
+      "Introducing Class-Diagram-Genius: a user-friendly tool that seamlessly translates text-based scenarios into visually informative class diagrams. Users input their scenario text, and our application generates a corresponding diagram, which can be exported as a PNG file for easy integration. Additionally, advanced users can generate Java code directly from the diagram, complete with folder structures and file contents, streamlining the development process. From conceptualization to implementation, Class-Diagram-Genius offers an intuitive interface for software design and development, catering to both beginners and experienced developers alike. Experience the synergy of text-based ideation and visual representation with Class-Diagram-Genius today.",
+    image:
+      "https://github.com/Musthakeem98/Class-Diagram-Gennies/raw/Font-end/ReadMe_Img/ScreenShot.png",
+    tags: [
+      "NextJS",
+      "React JS",
+      "TalwindCSS",
+      "TypeScript",
+      "JavaScript",
+      "MongoDB",
+      "Open AI",
+      "GitHub",
+    ],
+    category: "web app",
+    github: "https://github.com/Musthakeem98/Class-Diagram-Gennies",
+    webapp: "https://trackify.duckdns.org",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Fitness Pro Application",
+    date: "Feb 2024",
+    description:
+      " Introducing our fitness-focused mobile app, designed to support your wellness journey with a suite of powerful features. Access a diverse library of exercise videos and animations, categorized by body parts and fitness goals for tailored workouts. With secure user authentication via Firebase, personalized scheduling and tracking, and easy navigation, achieving your fitness goals has never been easier. Plus, enjoy access to a range of healthy articles for additional insights into diet and nutrition. Whether online or offline, our app is your ultimate companion for a healthy lifestyle.",
+    image:
+      "https://github.com/Musthakeem98/FitnessPro-mobile-application/raw/main/test/Screenshot.png",
+    tags: ["Flutter", "Firebase", "SQLite", "Dart"],
+    category: "mobile app",
+    github: "https://github.com/Musthakeem98/FitnessPro-mobile-application",
+    webapp: "https://rishav-react-todo.netlify.app/",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
       },
       {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "Aashik Shihaab",
+        img: "https://avatars.githubusercontent.com/u/82132513?v=4",
+        linkedin: "https://github.com/aashikkk/",
+        github: "https://github.com/aashikkk/",
+      },
+      {
+        name: "Aditha Pinsara",
+        img: "https://avatars.githubusercontent.com/u/118208382?v=4",
+        linkedin: "https://github.com/AdithaPinsara/",
+        github: "https://github.com/AdithaPinsara/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "WildLife-Applicaion-Dashboard",
+    date: "Dec 2023 - Mar 2024",
+    description:
+      "A mobile and web application designed to combat unauthorized or illegal activities in forest and wildlife reserve areas. Users can report incidents such as picking flowers in parks or harming animals in zoos through our mobile app. Once reported, relevant department officers can access the web application, which features role-based access control. Officers are granted access based on their roles, allowing them to view tasks within their jurisdiction. Beat officers can only view their assigned tasks, while admin officers can oversee reported issues, assign tasks to beat officers, and monitor task progress through the dashboard. Upon resolution, users receive detailed notifications, along with our gratitude for their report. This project aims to enhance conservation efforts by facilitating efficient communication and action against environmental violations.",
+    image:
+      "https://github.com/Musthakeem98/WildLife-Applicaion-Dashboard/raw/main/Readme_Img/ScreenShot.png",
+    tags: [
+      "React JS",
+      "Node JS",
+      "Express JS",
+      "TypeScript",
+      "CSS",
+      "MongoDB",
+      "Docker",
+    ],
+    category: "web app",
+    github: "https://github.com/Musthakeem98/WildLife-Applicaion-Dashboard",
+    webapp: "https://brain-tumor.netlify.app/",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+      {
+        name: "Aditha Pinsara",
+        img: "https://avatars.githubusercontent.com/u/118208382?v=4",
+        linkedin: "https://github.com/AdithaPinsara/",
+        github: "https://github.com/AdithaPinsara/",
+      },
+      {
+        name: "Zain Ahamed",
+        img: "https://avatars.githubusercontent.com/u/152946215?v=4",
+        linkedin: "https://github.com/zainahamed/",
+        github: "https://github.com/zainahamed/",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Daily News App",
+    date: "Dec 2023",
+    description:
+      "A minimalist Flutter application designed to keep you informed with the latest headlines from around the world. Powered by the NewsAPI, this app offers seamless exploration of news across categories such as Science, Business, Technology, Sports, Health, Entertainment, and General. With its intuitive interface, you can easily search for specific topics and receive real-time updates to stay ahead of the curve. Whether you're a news enthusiast or simply staying informed, the Daily News App provides a seamless browsing experience tailored to your interests.",
+    image:
+      "https://github.com/Musthakeem98/dailyNews/raw/main/ReadMe_Img/ScreenShot.png",
+    tags: ["Flutter", "Dart", "News API"],
+    category: "mobile app",
+    github: "https://github.com/Musthakeem98/dailyNews",
+    webapp: "https://whatsapp-clone-rishav.web.app",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "ApacheSupersetDoc R & D",
+    date: "Oct 2023",
+    description:
+      "This project outlines the process of deploying a webpage using Ansible automation. After installing Ansible on the server and configuring the inventory, users create a YAML playbook file named 'deploy_webpage.yml'. This playbook contains the necessary tasks for deploying the webpage. Users can copy sample YAML code from the repository and modify it as needed. Prior to execution, it's essential to check the syntax using the '--syntax-check' flag. Finally, the playbook is run using the 'ansible-playbook' command to deploy the webpage on the specified node. This project streamlines the deployment process, enabling efficient management and scaling of web services using Ansible automation.",
+    image:
+      "https://blog.knoldus.com/wp-content/uploads/2022/08/Screenshot-from-2022-08-23-16-03-31.png",
+    tags: ["ApacheSuperset", "Python", "keyClock"],
+    category: "other app",
+    github: "https://github.com/Musthakeem98/ApacheSupersetDoc",
+    webapp: "https://github.com/Musthakeem98/ApacheSupersetDoc",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
       },
     ],
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
+    title: "PosterLink-Cinema",
+    date: "Feb 2024 - Mar 2024",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Explore and stream movies seamlessly with detailed descriptions and a `Watch Now` button for instant access. Engage effortlessly through our user-friendly `Contact Us`` section, featuring automated email responses for enhanced communication. With captivating design and intuitive features, our platform guarantees an immersive movie viewing experience, keeping users engaged and entertained.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://github.com/Musthakeem98/PosterLink-Cinema/raw/main/ReadMe_Img/Screenshot.png",
     tags: [
       "React Js",
       "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "PHP",
+      "TypeScript",
+      "CSS",
+      "HTML",
+      "Postman",
+      "Docker",
+      "GitHub",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
+    github: "https://github.com/Musthakeem98/PosterLink-Cinema",
     webapp: "https://vexa-app.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
       },
     ],
-  },
-  {
-    id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
   {
     id: 10,
-    title: "Job Finding App",
+    title: "Contact Keeper",
     date: "Jun 2023 - Jul 2023",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+      "This is mobile application that developed using flutter crooss plateform development. This app can store te contec number with name and if we need we can delete it too. the funstion we can do using this application is delete number edit number and name of the contect, make them favourite tooo, and we need to search we can searchig using number and name too. user friendly mobile application",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+      "https://github.com/Musthakeem98/ContactKeeper/raw/main/Readme_Img/Screenshot.png",
+    tags: ["Flutter", "Dart", "SQLite DB"],
+    category: "mobile app",
+    github: "https://github.com/Musthakeem98/ContactKeeper",
+    webapp: "https://github.com/Musthakeem98/WildLife-Applicaion-Dashboard",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
   },
+
   {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    id: 3,
+    title: "Live_Chat_Room",
+    date: "Dec 2021 - Apr 2022",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "This web application boasts real-time chat functionality and robust security, including reCAPTCHA validation. Users can join chat rooms with personalized usernames, engaging in lively conversations with friends and teammates. With simultaneous updates, users enjoy dynamic interaction, sharing jokes and anecdotes for an engaging chat experience. Whether connecting with friends or collaborating with teammates, our application offers a secure and enjoyable platform for socializing and communication.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      "https://github.com/Musthakeem98/Live_Chat_Room/raw/main/img/chat_screen.jpg",
+    tags: ["Kotlin", "Websocket", "React JS", "HTML", "CSS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    github: "https://github.com/Musthakeem98/Live_Chat_Room",
+    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
   },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
+
   {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
+    title: "Snake-Game",
+    date: "Jun 2019",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+      "Classic Snake game application, a timeless favorite for all ages. Maneuver the snake to gobble up food and watch it grow longer with each meal. But beware! Touching the borders spells game over. With each food item consumed, your score increases by one. After the game ends, your final score is proudly displayed. Enjoy the nostalgia of this addictive and timeless game on your device.",
     image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
+      "https://dotesports.com/wp-content/uploads/2023/10/snake-game-header.jpg",
+    tags: ["Python"],
+    category: "other app",
+    github: "https://github.com/Musthakeem98/Snake-Game",
     webapp: "https://breaking-bad-webapp.netlify.app",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
   },
   {
     id: 7,
-    title: "Quiz App",
+    title: "Colour-Detection",
     date: "Dec 2020 - Jan 2021",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+      "The Color Detection project is a Python application designed to analyze images and detect specific colors within them. Utilizing the OpenCV and NumPy libraries, this program allows users to input an image and identify a target color within that image. By extracting color information from each pixel, the program identifies areas matching the specified color criteria, providing users with insights into the color distribution within the image. This project serves as a valuable tool for various applications, from image processing and analysis to color-based object detection in computer vision systems.",
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIu7OhWZmWsUb75160ZLPaCDkEtiD8BWUCcPhnAQzNg&s",
+    tags: ["Python", "Numpy", "Open CV"],
+    category: "other app",
+    github: "https://github.com/Musthakeem98/Colour-Detection",
     webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
   },
   {
     id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    title: "ansible-webpage-deployment",
+    date: "Jan 2023",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+      "This project outlines the process of deploying a webpage using Ansible automation. After installing Ansible on the server and configuring the inventory, users create a YAML playbook file named 'deploy_webpage.yml'. This playbook contains the necessary tasks for deploying the webpage. Users can copy sample YAML code from the repository and modify it as needed. Prior to execution, it's essential to check the syntax using the '--syntax-check' flag. Finally, the playbook is run using the 'ansible-playbook' command to deploy the webpage on the specified node. This project streamlines the deployment process, enabling efficient management and scaling of web services using Ansible automation.",
     image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      "https://media.licdn.com/dms/image/D4D12AQEVZG680b2EBw/article-cover_image-shrink_600_2000/0/1699277273914?e=2147483647&v=beta&t=RAIYlLKC-72OozkhZ7hHWKsf8i_XwUglpXyG7K9GMvA",
+    tags: ["Ansible"],
+    category: "other app",
+    github: "https://chatgpt.com/c/82b86c44-722f-46cf-a891-766e1f859825",
+    webapp: "https://chatgpt.com/c/82b86c44-722f-46cf-a891-766e1f859825",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
   },
 ];
 
