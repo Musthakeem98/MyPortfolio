@@ -171,12 +171,12 @@ export const skills = [
       {
         name: "GitLab",
         image:
-          "https://banner2.cleanpng.com/20180510/qae/kisspng-gitlab-logo-version-control-continuous-integration-5af41ae0562cb4.746493271525947104353.jpghttps://banner2.cleanpng.com/20180422/bie/kisspng-gitlab-continuous-integration-logo-version-control-duwu-5adc47f66126e3.1879072815243857823979.jpghttps://about.gitlab.com/images/new_logo/A.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8K0AsMYKt74a3KIgMulXWyAGx4GJJx1dxHetR0AkwcYvr4ueKODb8KhvQ8JAXgwolytI&usqp=CAU",
       },
       {
         name: "GitHub",
         image:
-          "https://banner2.cleanpng.com/20180711/iqy/kisspng-github-computer-icons-github-logo-5b459a3d238b60.4061479515312881251456.jpghttps://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.pnghttps://cdn.icon-icons.com/icons2/2428/PNG/512/github_black_logo_icon_147128.pnghttps://raw.githubusercontent.com/detain/svg-logos/master/svg/g/github-icon-2.svghttps://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_Github-512.pnghttps://icons.iconarchive.com/icons/social-media-icons/glossy-social/256/Github-icon.pnghttps://github.blog/wp-content/uploads/2013/04/0cf7be70-a5e3-11e2-8943-6ac7a953f26d.jpg?resize=1234%2C631https://www.clipartmax.com/png/middle/179-1799200_github-logo-icon-github-logo-png.pnghttps://cdn.freebiesupply.com/logos/large/2x/github-octocat-logo-png-transparent.pnghttps://pngimg.com/uploads/github/github_PNG49.pnghttps://www.iconsdb.com/icons/preview/white/github-10-xxl.pnghttps://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/github-512.pnghttps://freepngimg.com/thumb/github/3-2-github-png-image.pnghttps://image.similarpng.com/very-thumbnail/2020/07/Github-icon-logo-on-transparent-PNG.pnghttps://image.similarpng.com/very-thumbnail/2020/11/Github-icon-template-design-premium-vector-PNG.pnghttps://icons.iconarchive.com/icons/bokehlicia/captiva/256/web-github-icon.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwsg4_5fanHsAvYI2gY-oKnfq5mtRV77cr637vwf4uw&s",
       },
       {
         name: "Docker",
