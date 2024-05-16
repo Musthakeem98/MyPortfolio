@@ -276,18 +276,6 @@ export const experiences = [
         ],
       },
       {
-        des: "Crafted an attractive Grafana dashboard for efficient data retrieval from MySQL tables. Deployed on AWS Cloud via Kubernetes with secure backups, user access through a dedicated namespace, and domain name.",
-        topic: "Building a User Management Dashboard on AWS with Kubernetes",
-        skills: [
-          "Grafana",
-          "MySQL",
-          "Kubernetes",
-          "AWS Cloud",
-          "KubernetesHelmChart",
-          "Docker",
-        ],
-      },
-      {
         des: "Discover Apache Superset, a powerful open-source tool transforming data visualization. Seamlessly integrate with Keycloak for enhanced security, unlocking features like alerts and reporting to empower data-driven decision-making. With Apache Superset, unlock the potential of your data with intuitive and insightful visualizations.",
         topic: "ApacheSuperset R & D Project",
         skills: [
@@ -300,7 +288,7 @@ export const experiences = [
         ],
       },
     ],
-    doc: "https://drive.google.com/file/d/1P-KvZL4JR9phBSmPWzsgM-UZ1i7F19YV/view?usp=sharing",
+    doc: "https://github.com/Musthakeem98/MyDocs/raw/main/Img/Img.jpeg",
   },
   {
     id: 0,
@@ -457,7 +445,7 @@ export const projects = [
   {
     id: 2,
     title: "WildLife-Applicaion-Dashboard",
-    date: "Dec 2023 - Mar 2024",
+    date: "Dec 2023 - Jan 2024",
     description:
       "A mobile and web application designed to combat unauthorized or illegal activities in forest and wildlife reserve areas. Users can report incidents such as picking flowers in parks or harming animals in zoos through our mobile app. Once reported, relevant department officers can access the web application, which features role-based access control. Officers are granted access based on their roles, allowing them to view tasks within their jurisdiction. Beat officers can only view their assigned tasks, while admin officers can oversee reported issues, assign tasks to beat officers, and monitor task progress through the dashboard. Upon resolution, users receive detailed notifications, along with our gratitude for their report. This project aims to enhance conservation efforts by facilitating efficient communication and action against environmental violations.",
     image:
@@ -519,7 +507,7 @@ export const projects = [
   {
     id: 8,
     title: "ApacheSupersetDoc R & D",
-    date: "Oct 2023",
+    date: "Oct 2023 - Jan 2024",
     description:
       "This project outlines the process of deploying a webpage using Ansible automation. After installing Ansible on the server and configuring the inventory, users create a YAML playbook file named 'deploy_webpage.yml'. This playbook contains the necessary tasks for deploying the webpage. Users can copy sample YAML code from the repository and modify it as needed. Prior to execution, it's essential to check the syntax using the '--syntax-check' flag. Finally, the playbook is run using the 'ansible-playbook' command to deploy the webpage on the specified node. This project streamlines the deployment process, enabling efficient management and scaling of web services using Ansible automation.",
     image:
@@ -540,7 +528,7 @@ export const projects = [
   {
     id: 1,
     title: "PosterLink-Cinema",
-    date: "Feb 2024 - Mar 2024",
+    date: "May 2023",
     description:
       "Explore and stream movies seamlessly with detailed descriptions and a `Watch Now` button for instant access. Engage effortlessly through our user-friendly `Contact Us`` section, featuring automated email responses for enhanced communication. With captivating design and intuitive features, our platform guarantees an immersive movie viewing experience, keeping users engaged and entertained.",
     image:
@@ -571,7 +559,7 @@ export const projects = [
   {
     id: 10,
     title: "Contact Keeper",
-    date: "Jun 2023 - Jul 2023",
+    date: "Sep 2023 ",
     description:
       "This is mobile application that developed using flutter crooss plateform development. This app can store te contec number with name and if we need we can delete it too. the funstion we can do using this application is delete number edit number and name of the contect, make them favourite tooo, and we need to search we can searchig using number and name too. user friendly mobile application",
     image:
@@ -593,7 +581,7 @@ export const projects = [
   {
     id: 3,
     title: "Live_Chat_Room",
-    date: "Dec 2021 - Apr 2022",
+    date: "Dec 2021",
     description:
       "This web application boasts real-time chat functionality and robust security, including reCAPTCHA validation. Users can join chat rooms with personalized usernames, engaging in lively conversations with friends and teammates. With simultaneous updates, users enjoy dynamic interaction, sharing jokes and anecdotes for an engaging chat experience. Whether connecting with friends or collaborating with teammates, our application offers a secure and enjoyable platform for socializing and communication.",
     image:
@@ -636,7 +624,7 @@ export const projects = [
   {
     id: 7,
     title: "Colour-Detection",
-    date: "Dec 2020 - Jan 2021",
+    date: "Dec 2020",
     description:
       "The Color Detection project is a Python application designed to analyze images and detect specific colors within them. Utilizing the OpenCV and NumPy libraries, this program allows users to input an image and identify a target color within that image. By extracting color information from each pixel, the program identifies areas matching the specified color criteria, providing users with insights into the color distribution within the image. This project serves as a valuable tool for various applications, from image processing and analysis to color-based object detection in computer vision systems.",
     image:

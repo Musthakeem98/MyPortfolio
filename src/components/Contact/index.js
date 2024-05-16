@@ -2,7 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material";
+import Alert from "@mui/material/Alert";
+import CheckIcon from "@mui/icons-material/Check";
+import ErrorOutlineIcon from "@mui/icons-material/ErrorOutline";
+import { useState } from "react";
 
 const Container = styled.div`
   display: flex;
@@ -86,6 +89,9 @@ const ContactInput = styled.input`
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
   }
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 const ContactInputMessage = styled.textarea`
@@ -99,6 +105,9 @@ const ContactInputMessage = styled.textarea`
   padding: 12px 16px;
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
+  }
+  @media (max-width: 768px) {
+    font-size: 12px;
   }
 `;
 
@@ -133,21 +142,35 @@ const ContactButton = styled.input`
 
 const Contact = () => {
   //hooks
-  const [open, setOpen] = React.useState(false);
   const form = useRef();
+  const [mailSend, setMailSend] = useState(false);
+  const [alertMsg, setAlertMsg] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formData = new FormData(form.current);
+    const email = formData.get("from_email");
+    const name = formData.get("from_name");
+    const subject = formData.get("subject");
+    const message = formData.get("message");
+
+    // Check if any field is empty
+    if (!email || !name || !subject || !message) {
+      setAlertMsg(true);
+      setTimeout(() => setAlertMsg(false), 4000);
+      return;
+    }
     emailjs
       .sendForm(
         "service_q2coe3q",
         "template_3xkvyrr",
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "6kZtfxhdsvfmafNau"
       )
       .then(
         (result) => {
-          setOpen(true);
+          setMailSend(true);
+          setTimeout(() => setMailSend(false), 3000);
           form.current.reset();
         },
         (error) => {
@@ -171,13 +194,19 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+        {mailSend && (
+          <Alert icon={<CheckIcon fontSize="inherit" />} severity="success">
+            Email sent successfully!
+          </Alert>
+        )}
+        {alertMsg && (
+          <Alert
+            icon={<ErrorOutlineIcon fontSize="inherit" />}
+            severity="error"
+          >
+            All fields are required !
+          </Alert>
+        )}
       </Wrapper>
     </Container>
   );
