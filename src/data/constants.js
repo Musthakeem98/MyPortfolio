@@ -57,6 +57,16 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Typescript_fullstack_logo.png/600px-Typescript_fullstack_logo.png",
       },
       {
+        name: "Bootstrap",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl6DmRZjjHYVYod4M4r5gzbcwJ7JiG-GLN2A&s",
+      },
+      {
+        name: "SASS",
+        image:
+          "https://miro.medium.com/v2/resize:fit:800/1*Fk9lVjzWan0OgYa828emhw.png",
+      },
+      {
         name: "Flutter",
         image:
           "https://juststickers.in/wp-content/uploads/2019/01/flutter-326x326.png",
