@@ -526,6 +526,27 @@ export const projects = [
     ],
   },
   {
+    id: 20,
+    title: "ATM Machine",
+    date: "Dec 2023",
+    description:
+      "I have developed a terminal-based ATM machine application using Java. This application allows users to perform various banking operations through a simple command-line interface. Users can view their account balance, make withdrawals, deposit funds, and retrieve a mini-statement of recent transactions. The application is designed to simulate the essential functionalities of a real-world ATM, ensuring a seamless and intuitive user experience. Each feature is implemented with user input validation to enhance security and prevent errors. The balance inquiry function provides an up-to-date display of the user's available funds, while the withdrawal and deposit functionalities update the account balance accordingly and generate transaction records. The mini-statement feature displays a list of the most recent transactions, helping users keep track of their financial activities. This project demonstrates a practical application of Java programming skills and showcases how a terminal-based interface can effectively handle essential banking operations.",
+    image:
+      "https://codewithcurious.com/wp-content/uploads/2023/02/Handwritten-Notes-20.png",
+    tags: ["Java", "gitHub"],
+    category: "other app",
+    github: "https://github.com/Musthakeem98/ATM-Machine",
+    webapp: "https://github.com/Musthakeem98/ATM-Machine",
+    member: [
+      {
+        name: "Musthakeem Ahamed",
+        img: "https://avatars.githubusercontent.com/u/99728837?v=4",
+        linkedin: "https://www.linkedin.com/in/musthakeem-ahamed/",
+        github: "https://github.com/Musthakeem98/",
+      },
+    ],
+  },
+  {
     id: 1,
     title: "PosterLink-Cinema",
     date: "May 2023",
