@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-### Weblink: [Live Website]([https://rishavchanda.netlify.app](https://musthakeem98.github.io/MyPortfolio/)
+### Weblink: [Live Website]([https://rishavchanda.netlify.app](https://musthakeem98.github.io/MyPortfolio/})
 
 ## Table of Contents
 
