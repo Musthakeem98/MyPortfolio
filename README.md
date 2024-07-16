@@ -10,7 +10,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#contributing) 
 
 ## Introduction
 
