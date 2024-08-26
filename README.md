@@ -10,7 +10,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
-- [Contributing](#contributing) 
+- [Contributing](#contributing)
 
 ## Introduction
 
@@ -23,6 +23,7 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 - **Skills:** A list of my technical skills and proficiencies.
 - **Resume:** A link to download my resume.
 - **Contact:** A form to send me messages or inquiries.
+
 
 ## Technologies Used
 
