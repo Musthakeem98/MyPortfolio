@@ -10,7 +10,7 @@ export const Bio = {
     "Driven Software Engineer with a track record in optimizing development processes and fostering seamless integration. Committed to tackling complex challenges through the strategic application of cutting-edge technologies. Seeking to contribute expertise and enhance efficiency in an innovative organization.",
   github: "https://github.com/Musthakeem98",
   resume:
-    "https://drive.google.com/file/d/12XEnhOQef9NBVOzfmxlAqE1BAR3xnvq2/view?usp=sharing",
+    "https://drive.google.com/file/d/1y3ICbwJMuvlFroRJ-Y12y3eSZ53DnSIw/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/musthakeem-ahamed",
   twitter: "https://twitter.com/MK_Musthakeem",
   insta: "https://www.instagram.com/musthakeem__ahamed",
@@ -21,6 +21,16 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
+      {
+        name: "Vue Js",
+        image:
+          "data:image/png;base64,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",
+      },
+      {
+        name: "React Js",
+        image:
+          "https://e7.pngegg.com/pngimages/549/955/png-clipart-angularjs-javascript-jquery-directive-python-software-foundation-angle-triangle-thumbnail.png",
+      },
       {
         name: "React Js",
         image:
@@ -231,10 +241,53 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQEd98KVdvBYvw/company-logo_200_200/0/1673757957409/akunahq_logo?e=2147483647&v=beta&t=-9JcW3XXq8fXblEqyuYZn1cMGzv9ZShFURyZhipqE-U",
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQGE8cvmW2HTeQ/company-logo_200_200/company-logo_200_200/0/1630617671865/kloudip_logo?e=1744243200&v=beta&t=4wWRbQ-TYs46Z2zoKpT-x0jCg0vUDm6Czfj6BVDT4tM",
     role: "Software Engineer",
+    company: "Kloudip (Pvt) Ltd",
+    date: "Jul 2024 - Present",
+    desc: [
+      {
+        des: "I re-engineered a vehicle management system using Angular and NestJS, enhancing its functionality to meet client needs. The system included vehicle tracking with Google Maps API and Leaflet integration, supported by a dynamic UI using PrimeNG. PostgreSQL was utilized for efficient data management, while GitLab CI/CD ensured seamless deployment and continuous integration. I also handled server maintenance, optimized performance, and provided post-deployment support. The system enabled service administrators, managers, and dispatchers to digitalize and manage corporate transport, track vehicle usage, optimize routes, monitor employee activities, and manage transportation budgets.",
+        topic: "Manage employee transportation",
+        skills: [
+          "Nest Js",
+          "AngularJS",
+          "JavaScript",
+          "TypeScript",
+          "PrimeNg ",
+          "HTML",
+          "TypeORM",
+          "GitLab",
+          "GitLab CI/CD",
+          "PostgreSQL",
+          "Google API",
+        ],
+      },
+      {
+        des: "I developed a full-stack web application using Vue.js to manage moving and stationary assets via IoT devices like sensors and relays. The system enabled remote monitoring and control of machinery, featuring an intuitive UI, dynamic dashboards, and detailed reports for real-time tracking. The project supported both mobile and web platforms, ensuring seamless integration. I utilized Git for version control, collaborated with the backend team to optimize data flow, and continually enhanced the system by fixing bugs and adding new features. Deployed globally, this solution provided valuable experience in scalability, reliability, and handling international use cases.",
+        topic: "IoT platform for sensor tracking",
+        skills: [
+          "Nest Js",
+          "VueJS",
+          "JavaScript",
+          "TypeScript",
+          "Vuetify ",
+          "HTML",
+          "TypeORM",
+          "GitLab",
+          "GitLab CI/CD",
+          "PostgreSQL",
+        ],
+      },
+    ],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/C560BAQEd98KVdvBYvw/company-logo_200_200/0/1673757957409/akunahq_logo?e=2147483647&v=beta&t=-9JcW3XXq8fXblEqyuYZn1cMGzv9ZShFURyZhipqE-U",
+    role: "Assocaite Software Engineer",
     company: "Orpheus Digital Pvt. Ltd.",
-    date: "Jan 2024 - Present",
+    date: "Jul 202 - Present",
     desc: [
       {
         des: "Worked With live web platform connecting land sellers and customers. Utilizing Next.js and PHP, I played a significant role in both frontend and backend development, implementing major features and enhancing the overall functionality of the application",
@@ -253,11 +306,11 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 0,
+    id: 2,
     img: "https://media.licdn.com/dms/image/C4E0BAQFUr5HukjKrLw/company-logo_200_200/0/1667972665786/hsenid_software_lanka_logo?e=2147483647&v=beta&t=TyVQ4FLkz4jxi4bSe6HTja4556O72viHgASz64q2Ht4",
     role: "Trainee Software Engineer",
     company: "hSenid Mobile Solutions",
-    date: "Jan 2023 - Feb 2024",
+    date: "Jan 2023 - Oct 2024",
     desc: [
       {
         des: "Contributed to the development of a cutting-edge chatbot application leveraging OpenAI technology, designed for seamless integration into client webpages with minimal setup requirements. Played a pivotal role in enhancing functionality and user experience by introducing new features and resolving bugs. Utilized practical insights to optimize application performance and ensure accurate responses within the scope of company details.",
@@ -312,8 +365,8 @@ export const experiences = [
     doc: "https://github.com/Musthakeem98/MyDocs/raw/main/Img/Img.jpeg",
   },
   {
-    id: 0,
-    img: "https://camo.githubusercontent.com/88861d9ba2946d7c3b80ef3f6a3c151c43ff429c9394b50da9557efbcf5c62ea/687474703a2f2f692e737461636b2e696d6775722e636f6d2f36774c69492e6a7067",
+    id: 3,
+    img: "data:image/png;base64,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",
     role: "Software Developer",
     company: "Freelance Developer",
     date: "Jan 2022 - Present",
@@ -351,7 +404,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Institute_of_Technology%2C_University_of_Moratuwa.png/220px-Institute_of_Technology%2C_University_of_Moratuwa.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZUfn9i2TxDZYnn8zUl2ArjBOEY6UtRO6J_w&s",
     school: "Institute of Technology, University of Moratuwa",
     date: "Aug 2018 - Feb 2024",
     grade: "3.4 GPA",
@@ -360,7 +413,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://yt3.googleusercontent.com/s7_Mpow2iydjGVquJq7HujlCnOkLYLW8XAJSY5MzYKe5AdxY-vW3Pkk70jdLIPaRsF73gFP7=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQR7PG2f0fVDHJ9HVbo2APjHY55Xmn1kEVA&s",
     school: "Zahira National College",
     date: "Apr 2015 - Apr 2018",
     grade: "72.5%",
@@ -369,7 +422,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://yt3.googleusercontent.com/s7_Mpow2iydjGVquJq7HujlCnOkLYLW8XAJSY5MzYKe5AdxY-vW3Pkk70jdLIPaRsF73gFP7=s176-c-k-c0x00ffffff-no-rj",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQR7PG2f0fVDHJ9HVbo2APjHY55Xmn1kEVA&s",
     school: "Zahira National College",
     date: "Jan 2004 - Dec 2014",
     grade: "85.5%",
